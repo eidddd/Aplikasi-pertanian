@@ -1,0 +1,34 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 350
+  Width = 519
+  object Umodul: TZConnection
+    ControlsCodePage = cCP_UTF16
+    Catalog = ''
+    Properties.Strings = (
+      'controls_cp=CP_UTF16')
+    Connected = True
+    HostName = '127.0.0.1'
+    Port = 3306
+    Database = '2110020097'
+    User = 'root'
+    Password = ''
+    Protocol = 'mysql'
+    LibraryLocation = 'C:\Users\ASUS\Documents\Praktikum Visual 2\libmysql.dll'
+    Left = 160
+    Top = 24
+  end
+  object QueryLogin: TZQuery
+    Connection = Umodul
+    Active = True
+    SQL.Strings = (
+      'select*from tb_login')
+    Params = <>
+    Left = 152
+    Top = 80
+  end
+  object DataSource1: TDataSource
+    Left = 144
+    Top = 144
+  end
+end

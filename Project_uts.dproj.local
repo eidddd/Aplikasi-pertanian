@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/15 12:49:15.000.994,=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 12:50:11.000.506,=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/05/15 13:30:24.000.454,C:\Users\ASUS\Desktop\project_delphi\login.pas=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 13:30:24.000.454,C:\Users\ASUS\Desktop\project_delphi\login.dfm=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/15 13:30:42.000.695,C:\Users\ASUS\Desktop\project_delphi\umodul.dfm=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2023/05/15 13:30:42.000.695,C:\Users\ASUS\Desktop\project_delphi\umodul.pas=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/05/15 13:31:14.000.937,C:\Users\ASUS\Desktop\project_delphi\Project_uts.dproj=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/15 14:10:21.000.557,=C:\Users\ASUS\Desktop\project_delphi\Unit2.pas</Transaction>
+    <Transaction>2023/05/15 14:11:11.000.398,C:\Users\ASUS\Desktop\project_delphi\menu_utama.dfm=C:\Users\ASUS\Desktop\project_delphi\Unit2.dfm</Transaction>
+    <Transaction>2023/05/15 14:11:11.000.398,C:\Users\ASUS\Desktop\project_delphi\menu_utama.pas=C:\Users\ASUS\Desktop\project_delphi\Unit2.pas</Transaction>
+    <Transaction>2023/05/15 17:33:59.000.908,=C:\Users\ASUS\Desktop\project_delphi\Unit3.pas</Transaction>
+    <Transaction>2023/05/15 17:39:01.000.990,C:\Users\ASUS\Desktop\project_delphi\komoditas.dfm=C:\Users\ASUS\Desktop\project_delphi\Unit3.dfm</Transaction>
+    <Transaction>2023/05/15 17:39:01.000.990,C:\Users\ASUS\Desktop\project_delphi\komoditas.pas=C:\Users\ASUS\Desktop\project_delphi\Unit3.pas</Transaction>
+    <Transaction>2023/05/15 17:48:40.000.726,=C:\Users\ASUS\Desktop\project_delphi\Unit4.pas</Transaction>
+    <Transaction>2023/05/15 17:49:48.000.828,=C:\Users\ASUS\Desktop\project_delphi\Unit5.pas</Transaction>
+    <Transaction>2023/05/15 17:53:12.000.553,C:\Users\ASUS\Desktop\project_delphi\Masa_Tanam.dfm=C:\Users\ASUS\Desktop\project_delphi\Unit4.dfm</Transaction>
+    <Transaction>2023/05/15 17:53:12.000.553,C:\Users\ASUS\Desktop\project_delphi\Masa_Tanam.pas=C:\Users\ASUS\Desktop\project_delphi\Unit4.pas</Transaction>
+    <Transaction>2023/05/15 17:53:23.000.966,C:\Users\ASUS\Desktop\project_delphi\Wilayah.pas=C:\Users\ASUS\Desktop\project_delphi\Unit5.pas</Transaction>
+    <Transaction>2023/05/15 17:53:23.000.966,C:\Users\ASUS\Desktop\project_delphi\Wilayah.dfm=C:\Users\ASUS\Desktop\project_delphi\Unit5.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,61 @@
+unit login;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+begin
+  if DataModule1.QueryPengurus.Locate('nm_pengurus',EPengurus.Text,[]) then
+    begin
+      // mengecek lagi password saat username sesuai tabel/benar
+      if DataModule1.QueryPengurus.Locate('password',EPassword.Text,[]) then
+        begin
+          //posisi password benar
+          Form2.show;
+          Form1.Hide;
+          MessageBox(Handle,'SELAMAT DATANG','INFO',MB_ICONINFORMATION);
+          EPengurus.Clear;
+          EPassword.Clear;
+        end else
+
+        begin
+          //password salah tapi posisi username benar
+          ShowMessage('Password Anda salah');
+          Exit;
+        end;
+    end else
+
+    begin
+      // bila user tidak ada di tabel saat diketikan
+      ShowMessage('Username atau Password salah');
+      Exit;
+    end;
+end;
+end;
+
+end.
